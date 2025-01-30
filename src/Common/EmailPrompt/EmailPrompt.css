@@ -1,0 +1,138 @@
+.email-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.email-container {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.email-input {
+  text-align: left;
+  position: relative;
+  width: 100%;
+  max-width: 36.625rem;
+}
+
+.email-input-wrapper {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: top 250ms, font-size 250ms, line-height 250ms;
+  pointer-events: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  left: 1rem;
+  top: 1rem;
+}
+
+input:focus + .input-overlay label {
+  top: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+input {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  padding: 1.5rem 1rem 0.5rem;
+  vertical-align: middle;
+  background: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.input-overlay {
+  background: rgba(22, 22, 22, 0.7);
+  border-radius: 0.25rem;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+  border-style: solid;
+  color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 2px;
+  border: 1px solid black;
+  user-select: none;
+}
+
+.email-btn {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+
+.email-btn {
+  border: 0px;
+  cursor: pointer;
+  fill: currentcolor;
+  position: relative;
+  transition-duration: 250ms;
+  transition-property: background-color, border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+  vertical-align: text-top;
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-height: 3.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+}
+
+.btn-arrow {
+  display: inline-block;
+  height: 2rem;
+}
+
+@media screen and (max-width: 648px) {
+  .email-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-btn {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    min-height: 3rem;
+  }
+  input {
+    padding-top: 1.25rem;
+    padding-right: 1rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+  }
+  label{
+    top: 0.75rem;
+  }
+}

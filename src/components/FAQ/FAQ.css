@@ -1,0 +1,128 @@
+.faq-section {
+  margin-bottom: 4rem;
+}
+
+.accordion {
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.accordian-container {
+  margin-top: 1rem;
+}
+
+.accordion-header {
+  width: 100%;
+  background: #2d2d2d;
+  border-radius: 0px !important;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.accordian-header-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.accordian-header-para {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.accordion-header:hover {
+  background: #414141;
+}
+
+.icon {
+  font-size: 36px;
+}
+
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+  background: #2d2d2d;
+  transition:height 0.3s ease-in-out;
+}
+
+.accordion-content.open {
+  padding: 1.5rem;
+  height: max-content;
+  margin-top: 2px;
+  transition: height 0.3s ease-in-out;
+}
+
+.accordion-heading_iconStyles {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.33s ease-in-out;
+}
+
+.accordion-heading_iconStyles.open {
+  transform: rotate(45deg);
+}
+
+@media screen and (min-width: 1980px) {
+  .accordion-header {
+    font-size: 1.8rem;
+    padding: 2rem;
+  }
+
+  .accordian-header-title {
+    font-size: 1.7rem;
+  }
+
+  .accordian-header-para {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1979px) {
+  .accordion-header {
+    font-size: 1.6rem;
+    padding: 1.8rem;
+  }
+
+  .accordian-header-title {
+    font-size: 1.5rem;
+  }
+
+  .accordian-header-para {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .accordion-header {
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+
+  .accordian-header-title {
+    font-size: 1.3rem;
+  }
+
+  .accordian-header-para {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .accordion-header {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+
+  .accordian-header-title {
+    font-size: 1.1rem;
+  }
+
+  .accordian-header-para {
+    font-size: 1rem;
+  }
+}

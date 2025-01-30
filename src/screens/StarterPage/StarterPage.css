@@ -1,0 +1,80 @@
+.starter-page {
+  position: relative;
+  height: 100%;
+}
+
+.banner-page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-bg{
+    margin: 0;
+    position: absolute;
+    height: 105%;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.banner-bg-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+}
+
+.banner-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  color: white;
+  height: 100%;
+}
+
+.banner-bg img {
+  position: absolute;
+}
+
+.banner-bg img {
+  height: 100%;
+  width: auto;
+}
+
+.starter-content{
+  position: relative;
+  margin-top: 5rem;
+  z-index: 5;
+}
+
+@supports (object-fit: cover) {
+  .banner-bg img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+}
+
+@media (min-width: 960px) {
+  .banner-bg img {
+      height: auto;
+      width: 100%;
+  }
+}
+
+

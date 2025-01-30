@@ -1,0 +1,30 @@
+footer{
+    padding-bottom: 6rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 3rem;
+}
+
+.footer-wrapper{
+    margin-left: -0.75rem;
+}
+
+@media screen and (min-width:600px) {
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width:960px) {
+    .footer-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:1280px) {
+    .footer-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
