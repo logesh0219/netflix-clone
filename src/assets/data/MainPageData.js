@@ -183,10 +183,9 @@ const MainPageData = [
     },
     Footer: {
       CTA: 'Ready to watch? Enter your email to create or restart your membership.',
-      Contact: 'Questions? Call 000-800-919-1743',
       Contact: 'Questions? Call ',
-      Cell : '000-800-919-1743',
-      Links: [
+      Cell: '000-800-919-1743',
+      "Links" : [
         'FAQ',
         'Help Centre',
         'Account',

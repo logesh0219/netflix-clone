@@ -1,5 +1,4 @@
 .banner-header {
-<<<<<<< HEAD
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.8) 0%,
@@ -16,22 +15,6 @@
     rgba(0, 0, 0, 0.01111) 91.67%,
     rgba(0, 0, 0, 0) 100%
   );
-=======
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0.8) 0%,
-      rgba(0, 0, 0, 0.7889) 8.333%,
-      rgba(0, 0, 0, 0.7556) 16.67%,
-      rgba(0, 0, 0, 0.7) 25%,
-      rgba(0, 0, 0, 0.6222) 33.33%,
-      rgba(0, 0, 0, 0.5222) 41.67%,
-      rgba(0, 0, 0, 0.4) 50%,
-      rgba(0, 0, 0, 0.2778) 58.33%,
-      rgba(0, 0, 0, 0.1778) 66.67%,
-      rgba(0, 0, 0, 0.1) 75%,
-      rgba(0, 0, 0, 0.04444) 83.33%,
-      rgba(0, 0, 0, 0.01111) 91.67%,
-      rgba(0, 0, 0, 0) 100%);
->>>>>>> eade0df (Footer will be adder)
   position: relative;
   z-index: 2;
   width: 100%;
@@ -95,44 +78,3 @@ header {
 .starter-header-section {
   margin-left: 1rem;
 }
-<<<<<<< HEAD
-
-.language-select-wrapper {
-  position: relative;
-  height: 100%;
-  border: 1px solid rgb(133, 133, 133);
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.375rem;
-  padding-right: calc(1.25rem - 1rem);
-  padding-bottom: 0.375rem;
-  padding-left: calc(0.625rem + 0.5rem);
-}
-
-.starter-language {
-  background-color: transparent;
-  color: #fff;
-  line-height: 1.25rem;
-  border: none;
-  min-height: 16px;
-  font-size: 1rem;
-  outline: none;
-  appearance: none;
-}
-
-.dropdown-arrow svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
-}
-
-@media screen and (max-width: 600px) {
-  .starter-language {
-    padding: 4px 10px;
-  }
-}
-=======
->>>>>>> eade0df (Footer will be adder)

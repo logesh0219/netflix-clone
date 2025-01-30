@@ -15,7 +15,7 @@ const LanguageForm = () => {
     return (
         <div className="language-select-wrapper">
             <select className="starter-language" name="language-select">
-                <option value="english" selected>
+                <option value="english">
                     {isSmallScreen ? 'Eng' : 'English'}
                 </option>
                 <option value="hindi">

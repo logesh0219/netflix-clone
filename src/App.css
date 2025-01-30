@@ -53,13 +53,10 @@ button {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-.marginTop{
+.marginTop {
   margin-top: 36px;
 }
 
->>>>>>> eade0df (Footer will be adder)
 button:hover {
   background: #be131a;
   transition: 0.3s all ease-in;
@@ -69,10 +66,7 @@ button:hover {
   font-size: 2rem;
   font-weight: 700;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
 .heading1 {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -129,8 +123,7 @@ button:hover {
   font-weight: 400;
 }
 
-<<<<<<< HEAD
-=======
+
 .para3 {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -147,34 +140,27 @@ button:hover {
   text-decoration: underline;
 }
 
->>>>>>> eade0df (Footer will be adder)
 @media (max-width: 600px) {
   .heading2 {
     font-size: 1.25rem;
     font-weight: 500;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
   .para2-container {
     margin-top: 0.5rem;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 960px) {
   .heading2 {
     font-size: 1.25rem;
     font-weight: 500;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1280px) {
   .heading2 {
     font-size: 1.5rem;
@@ -193,10 +179,8 @@ button:hover {
   .banner-wrapper {
     padding: 0 2rem;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
   .container {
     padding: 0 2rem;
   }
@@ -206,28 +190,22 @@ button:hover {
   .container {
     padding: 0 5rem;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
   .heading1 {
     font-size: 2.5rem;
     font-weight: 700;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1280px) {
   .container {
     padding: 0 9.25rem;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1920px) {
   .container {
     padding: 0 22.125rem;
@@ -254,10 +232,8 @@ button:hover {
     font-weight: 900;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1280px) {
   .heading1 {
     margin-bottom: 1rem;
@@ -275,10 +251,8 @@ button:hover {
     margin-bottom: 1.5rem;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1280px) {
   .para1 {
     margin-bottom: 2rem;
@@ -298,30 +272,24 @@ button:hover {
     font-weight: 500;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 600px) {
   .card-heading-title {
     font-size: 1.125rem;
     font-weight: 500;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 960px) {
   .card-heading-title {
     font-size: 1.5rem;
     font-weight: 500;
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> eade0df (Footer will be adder)
+
 @media (min-width: 1280px) {
   .card-heading-title {
     font-size: 1.5rem;
@@ -331,12 +299,9 @@ button:hover {
 
 @media (min-width: 1920px) {
   .card-heading-title {
-<<<<<<< HEAD
-      font-size: 2rem;
-      font-weight: 700;
-=======
     font-size: 2rem;
     font-weight: 700;
->>>>>>> eade0df (Footer will be adder)
+    font-size: 2rem;
+    font-weight: 700;
   }
 }

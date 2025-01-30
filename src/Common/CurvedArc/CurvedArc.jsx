@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import React from 'react';
-=======
->>>>>>> eade0df (Footer will be adder)
 import './CurvedArc.css';
 
 const CurvedArc = () => {

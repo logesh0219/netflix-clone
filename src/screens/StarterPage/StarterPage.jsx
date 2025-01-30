@@ -39,7 +39,6 @@ const StarterPage = () => {
               <ReasonToJoin reasonToJoin={item.mainContent.Benefits}/>
               <FAQ FAQs={item.mainContent.FAQs}/>
               <GetStarted emailPara={item.mainContent.Header.EmailPrompt}/>
-              <StarerFooter />
               <StarerFooter starterFooterData={item.Footer}/>
             </div>
           </div>

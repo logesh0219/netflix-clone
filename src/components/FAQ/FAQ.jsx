@@ -18,11 +18,7 @@ const FAQ = ({ FAQs }) => {
               className="accordion-header"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="accordian-header-title">{item.Question}</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36" height="36" aria-hidden="true" className={`accordion-heading_iconStyles ${openIndex === index ? 'open' : ''}`}>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path>
-
-              </svg><svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36" height="36" aria-hidden="true" className={`accordion-heading_iconStyles ${openIndex === index ? 'open' : ''}`}>
+              <h3 className="accordian-header-title">{item.Question}</h3><svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36" height="36" aria-hidden="true" className={`accordion-heading_iconStyles ${openIndex === index ? 'open' : ''}`}>
                 <path fillRule="evenodd" clipRule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path>
               </svg>
             </div>
