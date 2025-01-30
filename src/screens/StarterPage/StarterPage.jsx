@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import React from 'react';
-=======
->>>>>>> eade0df (Footer will be adder)
 import './StarterPage.css';
 import Header from '../../components/Header/Header';
 import BannerContent from '../../components/BannerContent/BannerContent';
@@ -23,11 +20,7 @@ const StarterPage = () => {
               <div className="banner-bg-image">
                 <img
                   src="https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg"
-<<<<<<< HEAD
-                  srcset="https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg 2000w, https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_medium.jpg 1279w, https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_small.jpg 959w"
-=======
                   srcSet="https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg 2000w, https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_medium.jpg 1279w, https://assets.nflxext.com/ffe/siteui/vlv3/7a8c0067-a424-4e04-85f8-9e25a49a86ed/web/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_small.jpg 959w"
->>>>>>> eade0df (Footer will be adder)
                   alt=""
                   aria-hidden="true"
                 />
@@ -46,11 +39,8 @@ const StarterPage = () => {
               <ReasonToJoin reasonToJoin={item.mainContent.Benefits}/>
               <FAQ FAQs={item.mainContent.FAQs}/>
               <GetStarted emailPara={item.mainContent.Header.EmailPrompt}/>
-<<<<<<< HEAD
               <StarerFooter />
-=======
               <StarerFooter starterFooterData={item.Footer}/>
->>>>>>> eade0df (Footer will be adder)
             </div>
           </div>
         </div>
